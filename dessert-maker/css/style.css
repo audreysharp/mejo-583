@@ -1,0 +1,76 @@
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.Holders {
+  display: flex;
+  margin: 20px 0;
+}
+
+.separator {
+  display: flex-item;
+  align-self: center;
+  font-size: 25px;
+  margin: 0;
+  padding: 0;
+  line-height: 25px;
+  height: 25px;
+  width: 100px;
+  text-align: center;
+}
+
+.Holder {
+  display: flex-item;
+  flex-basis: 30%;
+  height: 100px;
+  border: 1px solid #9a9a9a;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.Holder img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.Selectors {
+  display: flex;
+  justify-content: space-around;
+  background: #f1f1f1;
+  border-radius: 4px;
+}
+
+.Fruit-selector,
+.Dessert-selector {
+  display: flex-item;
+  flex-basis: 45%;
+  text-align: center;
+}
+
+.Fruit,
+.Dessert {
+  padding: 8px 12px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.Fruit:hover,
+.Dessert:hover {
+  background: #dedede;
+  cursor: pointer;
+}
+
+.Reset {
+  padding: 8px 12px;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.Reset:hover {
+  background: #dedede;
+  cursor: pointer;
+}
